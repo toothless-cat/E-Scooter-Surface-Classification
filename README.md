@@ -4,6 +4,7 @@ A tool developed during summer 2019 internship at Cal Poly DxHub. It utilizes ac
 Here is an outline of the resources included:
 
 # Development Phase (outdated, optimized for skateboard data)
+During development phase, data was collected from a Xiaomi Mi 8 smartphone mounted to the deck of a skateboard.
 
   App: A custom Android app that streams GPS and IMU data to a Kinesis stream via API
 
@@ -13,6 +14,7 @@ Here is an outline of the resources included:
   outputs a CSV-friendly table of geotagged surface classifications. This function also had a hybrid mode wherein it considered both GPS     and IMU patterns to form an accurate composite classification. The CSV output could be plotted onto a custom Google Maps.
 
 # Deployment Phase (current, optimized for e-scooter)
+During deployment phase, data is collected from an accelerometer mounted to the rear axle of an E-Scooter. An Arduino Nano handled on-board surface classification, as well as the cutting of power to motor via a electromagnetic relay when a sidewalk is detected.
 
   STL Files: The 3D printable pieces that attach to the e-scooter and enable hacking.
 
