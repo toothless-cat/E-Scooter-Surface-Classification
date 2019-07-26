@@ -3,7 +3,7 @@ A tool developed during summer 2019 internship at Cal Poly DxHub. It utilizes ac
 
 Here is an outline of the resources included:
 
-# Development Phase (outdated, optimized for skateboard data):
+# Development Phase (outdated, optimized for skateboard data)
 
   App: A custom Android app that streams GPS and IMU data to a Kinesis stream via API
 
@@ -12,7 +12,7 @@ Here is an outline of the resources included:
   Lambda Function: Final processing algorithm, it parses the kinesis data and 
   outputs a CSV-friendly table of geotagged surface classifications. This function also had a hybrid mode wherein it considered both GPS     and IMU patterns to form an accurate composite classification. The CSV output could be plotted onto a custom Google Maps.
 
-# Deployment Phase (current, optimized for e-scooter):
+# Deployment Phase (current, optimized for e-scooter)
 
   STL Files: The 3D printable pieces that attach to the e-scooter and enable hacking.
 
